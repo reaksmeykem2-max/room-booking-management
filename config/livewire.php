@@ -1,0 +1,21 @@
+<?php
+
+return [
+    'class_namespace' => 'App\\Livewire',
+    'view_path' => resource_path('views/livewire'),
+    'layout' => 'layouts.app',
+    'temporary_file_upload' => [
+        'disk' => null,
+        'rules' => null,
+        'directory' => null,
+        'middleware' => null,
+        'preview_mimes' => ['png', 'gif', 'bmp', 'svg', 'wav', 'mp4', 'mov', 'avi', 'wmv', 'mp3', 'jpg', 'jpeg', 'pdf'],
+        'max_upload_time' => 5,
+        'cleanup' => true,
+    ],
+    'render_on_redirect' => false,
+    'navigate' => [
+        'show_progress_bar' => true,
+        'progress_bar_color' => '#2299dd',
+    ],
+];
